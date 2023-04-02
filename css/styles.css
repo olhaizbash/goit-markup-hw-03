@@ -358,6 +358,7 @@ justify-content: space-between;
     justify-content: center;
     align-items: center;
     margin-top: 96px;
+    padding: 0;
 }
 .container-filter .items{
     margin-bottom: 72px;
@@ -370,6 +371,7 @@ justify-content: space-between;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    padding: 0;
 }
 .container-card-portfolio .item{
     width: calc((100% - 48px) / 3);
