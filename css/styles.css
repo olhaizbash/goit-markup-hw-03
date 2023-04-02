@@ -56,14 +56,15 @@ li {
 .address-list{
     display: flex;
     margin: 0;
+    gap: 40px;
 }
 .address-list .link {
 padding-top: 24px;
 padding-bottom: 24px;
 }
-.address-list .item:not(:last-child){
+/* .address-list .item:not(:last-child){
     margin-right: 40px;
-}
+} */
 .address .link {
         font-style: normal;
         text-decoration: none;
@@ -126,15 +127,16 @@ padding-bottom: 24px;
     padding-bottom: 188px;
 }
 .section-one-index .main-title{
+    margin: 0 auto 48px;
     max-width: 496px;
     font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07;
-        text-align: center;
-        letter-spacing: 0.02em;
-        margin: 0 auto 48px;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 .main-button {
+        margin: 0 auto;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -146,8 +148,6 @@ padding-bottom: 24px;
         border-radius: 4px;
         cursor: pointer;
         display: block;
-        margin: 0 auto;
-        margin-top: 64px;
         min-width: 169px;
         height: 56px;
         border: none;
@@ -162,6 +162,7 @@ background-color: #404BBF;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--primary-text-color);
+        margin: 0;
         margin-bottom: 8px;
         text-align: center;
 }
@@ -202,9 +203,9 @@ background-color: #404BBF;
         text-transform: capitalize;
         color: var(--primary-text-color);
 }
-.team img{
+/* .team img{
     mix-blend-mode: normal;
-}
+} */
 .team-text{
     margin: 0 auto;
     margin-top: 8px;
@@ -221,8 +222,8 @@ header{
 }
 .team-card {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-        border-radius: 0px 0px 4px 4px;
 }
 .section-two-title-index{
     color: var(--primary-text-color);
@@ -272,15 +273,15 @@ header{
     display: flex;
     padding-left: 0;
     margin: 0;
+    gap: 40px;
 }
 
-.site-nav .item:not(:last-child){
+/* .site-nav .item:not(:last-child){
     margin-right: 40px;
-}
+} */
 .site-nav .link {
+    padding: 24px 0;
     display: block;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 .conteiner-nav {
     display: flex;
@@ -291,6 +292,7 @@ header{
 display: flex;
 align-items: center;
 justify-content: space-between;
+margin: 0 auto;
 }
 .container-section-about{
     padding: 120px 0;
@@ -301,13 +303,14 @@ justify-content: space-between;
     padding: 0;
     margin-top: 120px;
     align-items: center;
+    gap: 24px;
 }
-.container-about .item{
+.container-about .item {
     width: calc((100% - 72px) / 4);
 }
-.container-about .item:not(:last-child){
+/* .container-about .item:not(:last-child){
     margin-right: 24px;
-}
+} */
 .container-section-whatdoing{
     padding-bottom: 120px;
 }
@@ -317,10 +320,11 @@ justify-content: space-between;
     padding: 0;
     align-items: center;
     justify-content: center;
+    gap: 24px;
 }
-.container-doing .item:not(:last-child){
+/* .container-doing .item:not(:last-child){
     margin-right: 24px;
-}
+} */
 .container-doing .item{
     width: calc((100% - 48px) / 3);
 }
@@ -334,6 +338,7 @@ justify-content: space-between;
     padding-bottom: 120px;
         align-items: center;
         justify-content: space-between;
+        gap: 24px;
 }
 .text-about {
     display: block;
@@ -342,6 +347,7 @@ justify-content: space-between;
 }
 .image{
     display: block;
+    width: 100%;
 }
 .footer .footer-p{
     max-width: 264px;
@@ -359,13 +365,15 @@ justify-content: space-between;
     align-items: center;
     margin-top: 96px;
     padding: 0;
-}
-.container-filter .items{
+    gap: 24px;
     margin-bottom: 72px;
 }
-.container-filter .items:not(:last-child) {
+/* .container-filter .items{
+    margin-bottom: 72px;
+} */
+/* .container-filter .items:not(:last-child) {
     margin-right: 24px;
-}
+} */
 .container-card-portfolio{
     display: flex;
     flex-wrap: wrap;
@@ -382,13 +390,14 @@ justify-content: space-between;
     border: 1px solid #E7E9FC;
     border-top: none;
 }
-.container-card-portfolio .item h2 {
+.text .example-title {
     margin: 0;
     margin-bottom: 8px;
 }
-.container-card-portfolio .item p {
+.text .example-text {
     margin: 0;
 }
-.container-card-portfolio .text img{
+.container-card-portfolio .item img{
     display: block;
+    width: 100%;
 }
