@@ -127,7 +127,7 @@ padding-bottom: 24px;
     padding-top: 188px;
     padding-bottom: 188px;
 }
-.section-one-index .main-title{
+.main-title{
     margin: 0 auto 48px;
     max-width: 496px;
     font-weight: 700;
@@ -307,7 +307,7 @@ margin: 0 auto;
     gap: 24px;
 }
 .container-about .item {
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 72px)/4);
 }
 /* .container-about .item:not(:last-child){
     margin-right: 24px;
